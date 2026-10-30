@@ -1,0 +1,28 @@
+{
+ "chunk_00_06_T8_fp16.onnx": {
+  "onnx_nodes": 357,
+  "profile_node_events_by_provider": {
+   "QNNExecutionProvider": 5
+  },
+  "time_us_by_provider": {
+   "QNNExecutionProvider": 71142.0
+  },
+  "session_providers": [
+   "QNNExecutionProvider",
+   "CPUExecutionProvider"
+  ]
+ },
+ "head_fp16.onnx": {
+  "onnx_nodes": 8,
+  "profile_node_events_by_provider": {
+   "QNNExecutionProvider": 5
+  },
+  "time_us_by_provider": {
+   "QNNExecutionProvider": 48110.0
+  },
+  "session_providers": [
+   "QNNExecutionProvider",
+   "CPUExecutionProvider"
+  ]
+ }
+}

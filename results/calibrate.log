@@ -1,0 +1,28 @@
+wrote chunk_00_06_T32_fp32.onnx (1485 MB)
+wrote chunk_06_12_T32_fp32.onnx (1460 MB)
+wrote chunk_12_18_T32_fp32.onnx (1460 MB)
+wrote chunk_18_24_T32_fp32.onnx (1460 MB)
+wrote head_fp32.onnx (1049 MB)
+21 sequences, 11984 tokens
+seq 1/21 len 1100 elapsed 28s
+seq 2/21 len 1100 elapsed 55s
+seq 3/21 len 1100 elapsed 82s
+seq 4/21 len 1074 elapsed 109s
+seq 5/21 len 1100 elapsed 137s
+seq 6/21 len 595 elapsed 156s
+seq 7/21 len 956 elapsed 182s
+seq 8/21 len 431 elapsed 198s
+seq 9/21 len 842 elapsed 222s
+seq 10/21 len 1087 elapsed 251s
+seq 11/21 len 834 elapsed 275s
+seq 12/21 len 80 elapsed 284s
+seq 13/21 len 87 elapsed 292s
+seq 14/21 len 58 elapsed 301s
+seq 15/21 len 77 elapsed 309s
+seq 16/21 len 69 elapsed 317s
+seq 17/21 len 48 elapsed 325s
+seq 18/21 len 53 elapsed 334s
+seq 19/21 len 383 elapsed 348s
+seq 20/21 len 452 elapsed 365s
+seq 21/21 len 458 elapsed 381s
+saved 277 tensors

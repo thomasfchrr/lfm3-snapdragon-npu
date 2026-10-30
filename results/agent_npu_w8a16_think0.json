@@ -1,0 +1,169 @@
+{
+ "summary": {
+  "name": "npu_w8a16",
+  "thinking": false,
+  "n": 12,
+  "tools_ok": 11,
+  "answer_ok": 12,
+  "wall_s": 28.199487299425527,
+  "gen_tokens": 506
+ },
+ "tasks": [
+  {
+   "id": "calc_simple",
+   "tools_used": [
+    "calculator"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "The result of 127 \u00d7 49 + 13 is **6236**.",
+   "steps": 2,
+   "gen_tokens": 37,
+   "wall_s": 3.045828999951482,
+   "decode_tok_s": 23.085649071349717
+  },
+  {
+   "id": "calc_fr",
+   "tools_used": [
+    "calculator",
+    "calculator"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "15% de 240 est **36.0**.",
+   "steps": 3,
+   "gen_tokens": 64,
+   "wall_s": 3.371591500006616,
+   "decode_tok_s": 23.4686977249785
+  },
+  {
+   "id": "calc_pow",
+   "tools_used": [
+    "calculator"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "The result of 2**16 is 65,536.",
+   "steps": 2,
+   "gen_tokens": 31,
+   "wall_s": 1.7380693999584764,
+   "decode_tok_s": 23.46515198049222
+  },
+  {
+   "id": "weather_one",
+   "tools_used": [
+    "get_weather"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "In Tokyo, it's currently cloudy and 22\u00b0C.",
+   "steps": 2,
+   "gen_tokens": 48,
+   "wall_s": 2.4771804998163134,
+   "decode_tok_s": 23.51380965926534
+  },
+  {
+   "id": "weather_two",
+   "tools_used": [
+    "get_weather",
+    "get_weather"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "Paris is warmer than London right now: Paris has a temperature of 18\u00b0C (sunny), while London is at 12\u00b0C (rainy).",
+   "steps": 2,
+   "gen_tokens": 66,
+   "wall_s": 3.3734661999624223,
+   "decode_tok_s": 23.522485838746825
+  },
+  {
+   "id": "time",
+   "tools_used": [
+    "get_time"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "It's currently 14:05 UTC on October 30, 2026.",
+   "steps": 2,
+   "gen_tokens": 26,
+   "wall_s": 1.5278368999715894,
+   "decode_tok_s": 23.367671529672315
+  },
+  {
+   "id": "note_save",
+   "tools_used": [
+    "save_note"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "Your note titled 'shopping' has been saved with the content 'milk, eggs, bread'.",
+   "steps": 2,
+   "gen_tokens": 51,
+   "wall_s": 2.588679099921137,
+   "decode_tok_s": 23.58444758159387
+  },
+  {
+   "id": "note_roundtrip",
+   "tools_used": [
+    "save_note",
+    "read_note"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "Your note titled 'idea' contains: \"build an NPU agent\".",
+   "steps": 3,
+   "gen_tokens": 60,
+   "wall_s": 3.200686000054702,
+   "decode_tok_s": 23.333630707645177
+  },
+  {
+   "id": "chain_weather_calc",
+   "tools_used": [
+    "get_weather",
+    "calculator"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "The weather in Lyon is cloudy with a temperature of 17\u00b0C. Multiplying 17 by 3 gives 51. So, 17 \u00d7 3 = 51.",
+   "steps": 3,
+   "gen_tokens": 74,
+   "wall_s": 3.8067437999416143,
+   "decode_tok_s": 23.492887606800338
+  },
+  {
+   "id": "no_tool_hello",
+   "tools_used": [],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "Hello! In French: \"Bonjour\" means \"Hello\".",
+   "steps": 1,
+   "gen_tokens": 13,
+   "wall_s": 0.8191958998795599,
+   "decode_tok_s": 22.816284155564226
+  },
+  {
+   "id": "no_tool_fact",
+   "tools_used": [
+    "list_notes"
+   ],
+   "tools_ok": false,
+   "answer_ok": true,
+   "answer": "The capital of Japan is Tokyo. (One word: Tokyo)",
+   "steps": 2,
+   "gen_tokens": 22,
+   "wall_s": 1.417638499988243,
+   "decode_tok_s": 23.07848047252311
+  },
+  {
+   "id": "json_format",
+   "tools_used": [],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "{\n \"name\": \"Alice\",\n \"age\": 30\n}",
+   "steps": 1,
+   "gen_tokens": 14,
+   "wall_s": 0.8325704999733716,
+   "decode_tok_s": 23.00351280737998
+  }
+ ]
+}

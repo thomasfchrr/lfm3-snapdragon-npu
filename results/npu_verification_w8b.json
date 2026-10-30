@@ -1,0 +1,119 @@
+{
+ "chunk_00_06_T1_w8b.onnx": {
+  "onnx_nodes": 533,
+  "profile_node_events_by_provider": {
+   "QNNExecutionProvider": 5
+  },
+  "time_us_by_provider": {
+   "QNNExecutionProvider": 48093.0
+  },
+  "session_providers": [
+   "QNNExecutionProvider",
+   "CPUExecutionProvider"
+  ]
+ },
+ "chunk_00_06_T64_w8b.onnx": {
+  "onnx_nodes": 533,
+  "profile_node_events_by_provider": {
+   "QNNExecutionProvider": 5
+  },
+  "time_us_by_provider": {
+   "QNNExecutionProvider": 168264.0
+  },
+  "session_providers": [
+   "QNNExecutionProvider",
+   "CPUExecutionProvider"
+  ]
+ },
+ "chunk_06_12_T1_w8b.onnx": {
+  "onnx_nodes": 577,
+  "profile_node_events_by_provider": {
+   "QNNExecutionProvider": 5
+  },
+  "time_us_by_provider": {
+   "QNNExecutionProvider": 50977.0
+  },
+  "session_providers": [
+   "QNNExecutionProvider",
+   "CPUExecutionProvider"
+  ]
+ },
+ "chunk_06_12_T64_w8b.onnx": {
+  "onnx_nodes": 577,
+  "profile_node_events_by_provider": {
+   "QNNExecutionProvider": 5
+  },
+  "time_us_by_provider": {
+   "QNNExecutionProvider": 174008.0
+  },
+  "session_providers": [
+   "QNNExecutionProvider",
+   "CPUExecutionProvider"
+  ]
+ },
+ "chunk_12_18_T1_w8b.onnx": {
+  "onnx_nodes": 577,
+  "profile_node_events_by_provider": {
+   "QNNExecutionProvider": 5
+  },
+  "time_us_by_provider": {
+   "QNNExecutionProvider": 44488.0
+  },
+  "session_providers": [
+   "QNNExecutionProvider",
+   "CPUExecutionProvider"
+  ]
+ },
+ "chunk_12_18_T64_w8b.onnx": {
+  "onnx_nodes": 577,
+  "profile_node_events_by_provider": {
+   "QNNExecutionProvider": 5
+  },
+  "time_us_by_provider": {
+   "QNNExecutionProvider": 168594.0
+  },
+  "session_providers": [
+   "QNNExecutionProvider",
+   "CPUExecutionProvider"
+  ]
+ },
+ "chunk_18_24_T1_w8b.onnx": {
+  "onnx_nodes": 577,
+  "profile_node_events_by_provider": {
+   "QNNExecutionProvider": 5
+  },
+  "time_us_by_provider": {
+   "QNNExecutionProvider": 54446.0
+  },
+  "session_providers": [
+   "QNNExecutionProvider",
+   "CPUExecutionProvider"
+  ]
+ },
+ "chunk_18_24_T64_w8b.onnx": {
+  "onnx_nodes": 577,
+  "profile_node_events_by_provider": {
+   "QNNExecutionProvider": 5
+  },
+  "time_us_by_provider": {
+   "QNNExecutionProvider": 174015.0
+  },
+  "session_providers": [
+   "QNNExecutionProvider",
+   "CPUExecutionProvider"
+  ]
+ },
+ "head_w8b.onnx": {
+  "onnx_nodes": 13,
+  "profile_node_events_by_provider": {
+   "QNNExecutionProvider": 5
+  },
+  "time_us_by_provider": {
+   "QNNExecutionProvider": 24458.0
+  },
+  "session_providers": [
+   "QNNExecutionProvider",
+   "CPUExecutionProvider"
+  ]
+ }
+}

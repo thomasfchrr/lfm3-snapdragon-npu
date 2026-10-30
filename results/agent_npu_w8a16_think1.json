@@ -1,0 +1,166 @@
+{
+ "summary": {
+  "name": "npu_w8a16",
+  "thinking": true,
+  "n": 12,
+  "tools_ok": 12,
+  "answer_ok": 11,
+  "wall_s": 86.45085160015151,
+  "gen_tokens": 1895
+ },
+ "tasks": [
+  {
+   "id": "calc_simple",
+   "tools_used": [
+    "calculator"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "The result of \\(127 \\times 49 + 13\\) is **6236**.",
+   "steps": 2,
+   "gen_tokens": 114,
+   "wall_s": 6.373129800194874,
+   "decode_tok_s": 23.406189409483453
+  },
+  {
+   "id": "calc_fr",
+   "tools_used": [
+    "calculator"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "15% de 240 est \u00e9gal \u00e0 **36**.",
+   "steps": 2,
+   "gen_tokens": 312,
+   "wall_s": 13.61141929985024,
+   "decode_tok_s": 23.69681582922669
+  },
+  {
+   "id": "calc_pow",
+   "tools_used": [
+    "calculator"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "2**16 equals 65,536.",
+   "steps": 2,
+   "gen_tokens": 106,
+   "wall_s": 4.8885022001340985,
+   "decode_tok_s": 23.653900588805968
+  },
+  {
+   "id": "weather_one",
+   "tools_used": [
+    "get_weather"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "The current weather in Tokyo is 22\u00b0C and cloudy.",
+   "steps": 2,
+   "gen_tokens": 114,
+   "wall_s": 5.246848900103942,
+   "decode_tok_s": 23.626906279938723
+  },
+  {
+   "id": "weather_two",
+   "tools_used": [
+    "get_weather",
+    "get_weather"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "Paris is warmer at 18\u00b0C compared to London's 12\u00b0C.",
+   "steps": 2,
+   "gen_tokens": 148,
+   "wall_s": 6.849132200004533,
+   "decode_tok_s": 23.526192902498742
+  },
+  {
+   "id": "time",
+   "tools_used": [
+    "get_time"
+   ],
+   "tools_ok": true,
+   "answer_ok": false,
+   "answer": "It is currently 2:05 PM on October 30, 2026 (UTC).",
+   "steps": 2,
+   "gen_tokens": 134,
+   "wall_s": 6.16984390001744,
+   "decode_tok_s": 23.290512047047052
+  },
+  {
+   "id": "note_save",
+   "tools_used": [
+    "save_note"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "Note titled 'shopping' has been saved with the content: milk, eggs, bread.",
+   "steps": 2,
+   "gen_tokens": 154,
+   "wall_s": 6.938938400009647,
+   "decode_tok_s": 23.60337670526326
+  },
+  {
+   "id": "note_roundtrip",
+   "tools_used": [
+    "save_note",
+    "read_note"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "The note titled \"idea\" contains: **build an NPU agent**.",
+   "steps": 3,
+   "gen_tokens": 287,
+   "wall_s": 12.725251900032163,
+   "decode_tok_s": 23.67383057398694
+  },
+  {
+   "id": "chain_weather_calc",
+   "tools_used": [
+    "get_weather",
+    "calculator"
+   ],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "The temperature in Lyon is 17\u00b0C. Multiplying that by 3 gives **51**.",
+   "steps": 3,
+   "gen_tokens": 255,
+   "wall_s": 11.422264199936762,
+   "decode_tok_s": 23.59031908441054
+  },
+  {
+   "id": "no_tool_hello",
+   "tools_used": [],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "Bonjour ! \ud83d\udc4b",
+   "steps": 1,
+   "gen_tokens": 99,
+   "wall_s": 4.434381200000644,
+   "decode_tok_s": 23.424303864511483
+  },
+  {
+   "id": "no_tool_fact",
+   "tools_used": [],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "Tokyo",
+   "steps": 1,
+   "gen_tokens": 83,
+   "wall_s": 3.791828899877146,
+   "decode_tok_s": 23.44326284077538
+  },
+  {
+   "id": "json_format",
+   "tools_used": [],
+   "tools_ok": true,
+   "answer_ok": true,
+   "answer": "{\n  \"name\": \"Alice\",\n  \"age\": 30\n}",
+   "steps": 1,
+   "gen_tokens": 89,
+   "wall_s": 3.999310699990019,
+   "decode_tok_s": 23.526176254778704
+  }
+ ]
+}
